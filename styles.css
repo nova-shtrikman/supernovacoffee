@@ -1,0 +1,26 @@
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  font-family: Times New Roman;
+    color: blue ;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+#firstHighlight {
+  background-color: yellow;
+}
+
+.copyright {
+  font-family: Arial;
+  font-size: 9px;
+  font-style: italic;
+}
