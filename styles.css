@@ -1,26 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: lightgrey;
+  background-color: #ECD5D0;
+  padding: 0;
+  margin: 0;
 }
 
-h1 {
-  font-family: Times New Roman;
-    color: blue ;
+#titleBanner {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-image: url(https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-03.jpg);
+  background-size: cover;
+  background-position: center center;
+  box-shaddow: 0px 3px 3px rgba(0, 0, 0, 0.7);
 }
 
-h4 {
-  margin-bottom: 0;
-}
-
-ul, ol {
-  margin-top: 0;
-}
-
-#firstHighlight {
-  background-color: yellow;
-}
-
-.copyright {
-  font-family: Arial;
-  font-size: 9px;
-  font-style: italic;
+#titleBanner h1 {
+  font-family:"Philosopher", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 500%;
+  padding: 0;
+  margin: 0 0 2vw 2vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-shaddow: 0px 8px 8px #000000;
+  line-height: 80%;
 }
